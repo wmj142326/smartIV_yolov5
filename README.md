@@ -2,7 +2,7 @@
 
 1.参考链接：[YOLOV5](https://github.com/ultralytics/yolov5)
 
-2.镜像获取：[smartIV-yolov5]:
+2.镜像获取：[smartIV-yolov5](链接：https://pan.baidu.com/s/1Hr-a4CFS3ae6x0xMzSAytw?pwd=cp2p)
 
 3.权重下载：[百度网盘链接](https://pan.baidu.com/s/1cmfX1yBcTbv7jaWmq8MDYw?pwd=d1fn )【docker镜像已有训练模型】
 
