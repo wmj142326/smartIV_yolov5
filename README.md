@@ -1,7 +1,7 @@
 # SmartIV-yolov5
 
- [数据集下载](https://pan.baidu.com/s/1EV20XavJ-DA8zOEisS67QA?pwd=1jyo)
-		[说明文档下载](https://pan.baidu.com/s/1-mv87wrFQ4DAKt-SUVnW5A?pwd=r8q7)
+[数据集下载](https://pan.baidu.com/s/1EV20XavJ-DA8zOEisS67QA?pwd=1jyo)
+[说明文档下载](https://pan.baidu.com/s/1-mv87wrFQ4DAKt-SUVnW5A?pwd=r8q7)
 
 1.参考链接：[YOLOV5](https://github.com/ultralytics/yolov5)
 
