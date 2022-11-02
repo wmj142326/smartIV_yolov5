@@ -32,6 +32,7 @@
 
 ​**5.1 镜像下载链接**：[task1_smartiv.tar](https://pan.baidu.com/s/1JhJivCzbmod1IY6yaoVisg?pwd=p9o1)
 ​    
+
 **5.1 加载镜像：**(加载需要一会儿时间)
 
 ```
@@ -94,7 +95,7 @@ python detect_task1.py --weights best.pt --source task1
 
 ![image-20221101111317461](README.assets/image-20221101111317461.png)
 
-**5.6 结果查看：**将生成的`.json`文件自动创建并放置于`/usr/src/app/task1_result/smartIV`下
+**5.6 结果查看：** 将生成的`.json`文件自动创建并放置于`/usr/src/app/task1_result/smartIV`下
 
 ![image-20221101110637584](README.assets/image-20221101110637584.png)
 
