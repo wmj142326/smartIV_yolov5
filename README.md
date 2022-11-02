@@ -30,8 +30,9 @@
 
 5.docker 镜像安装：
 
-​	5.1 镜像下载链接：[task1_smartiv.tar](https://pan.baidu.com/s/1JhJivCzbmod1IY6yaoVisg?pwd=p9o1)
-​    **5.1 加载镜像：**(加载需要一会儿时间)
+​**5.1 镜像下载链接**：[task1_smartiv.tar](https://pan.baidu.com/s/1JhJivCzbmod1IY6yaoVisg?pwd=p9o1)
+​    
+**5.1 加载镜像：**(加载需要一会儿时间)
 
 ```
 docker load < task1_smartiv.tar
