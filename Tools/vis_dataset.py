@@ -12,9 +12,9 @@ def create_folder(folder):
         os.makedirs(folder)
     return folder
 
-img_file_path = "error_img/"
-json_file_path = "error_label/"
-output_path = "output/"
+img_file_path = "/home/meijun/Projects/CIAC_project/Task1Dataset/dataset_3/valid/images"
+json_file_path = "/home/meijun/Projects/CIAC_project/Task1Dataset/dataset_3/valid/label/"
+output_path = "/home/meijun/Projects/CIAC_project/yolov5/Tools/gt/"
 filesName = os.listdir(img_file_path)
 
 create_folder(output_path)
@@ -22,22 +22,24 @@ shutil.rmtree(output_path)
 create_folder(output_path)
 
 category_tranlate = {"轿车": "car",
-                     "suv": "suv",
+                     "SUV": "SUV",
+                     'suv': 'suv',
                      "面包车": "van",
-                     "成年人": "dult",
-                     "电动/摩托车": "motorcycle",
+                     "成人": "dult",
+                     "电动车/摩托车": "motorcycle",
                      "自行车": "bicycle",
                      "大客车": "bus",
                      "大货车": "Big_truck",
-                     "电动/摩托三轮车": "Motor_tricycle",
+                     "电动三轮车/摩托三轮车": "Motor_tricycle",
                      "小货车": "small_van",
                      "微型车": "Mini_car",
                      "专业作业车": "Professional_operation_vehicle",
                      "儿童": "child",
                      "其他": "other",
                      "人力三轮车": "Human_tricycles",
-                     "其他非机动车": "Other_non_motor_vehicles",
-                     "模糊或变形严重车辆": "Vehicle_with_blurring_or_severe_deformation"
+                     "非机动车其他": "non_motor_vehicles_other",
+                     "模糊或变形严重车辆": "Vehicle_with_blurring_or_severe_deformation",
+                     'unknow': "unknow"
                      }
 
 
@@ -56,9 +58,11 @@ class Color(Enum):
     child = (199, 97, 20)
     other = (160, 82, 45)
     Human_tricycles = (116, 0, 0)
-    Other_non_motor_vehicles = (255, 153, 18)
-    suv = (156, 102, 31)
+    non_motor_vehicles_other = (255, 153, 18)
+    SUV = (156, 102, 31)
+    suv = (188, 108, 20)
     Vehicle_with_blurring_or_severe_deformation = (218, 122, 214)
+    unknow = (222, 122, 214)
 
 
 def is_str(x):

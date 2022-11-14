@@ -1,14 +1,22 @@
-# SmartIV-yolov5
+# SmartIV-yolov5（参考链接：[YOLOV5](https://github.com/ultralytics/yolov5)）
 
-[数据集下载](https://pan.baidu.com/s/1EV20XavJ-DA8zOEisS67QA?pwd=1jyo)
-[说明文档下载](https://pan.baidu.com/s/1-mv87wrFQ4DAKt-SUVnW5A?pwd=r8q7)
 
-1.参考链接：[YOLOV5](https://github.com/ultralytics/yolov5)
 
-2.权重下载：[best.pth](https://pan.baidu.com/s/1AdYGT6f3Gut25tCYgeCSlA?pwd=kr6o)
+0.[数据集下载]()
 
 ```
-└── yolov5
+├── smartIV_yolov5
+└── Task1Dataset
+    ├── data.yaml  # 数据集配置文件
+    ├── images  # 原始图片（8008）
+    ├── labels  # txt_处理标签
+    └── labels_json  # json_原始标签
+```
+
+1.权重下载：[runs/best.pth]()
+
+```
+└── smartIV_yolov5
 	......
     ├── models
     ├── README.md
@@ -24,13 +32,26 @@
 
 ```
 
-3.运行：`python detect_task1.py`
+2.Tools工具使用：
+
+```
+├── Tools
+    ├── single_json_to_txt.ipynb  # json转txt
+    ├── statistic.ipynb  # 数据集标签统计
+    ├── split_file.py  # 数据集划分
+    ├── vis_dataset.py  # 数据集标签可视化
+    ├── vis_result.py  # 测试结果可视化
+    ├── compare_img.py  # 前二者可视化结果比较
+    └──img2vid.py  # 多帧图片合成视频
+```
+
+3.运行：`python detect_task1.py  --weights best.pt -- source task1`
 
 4.保存json结果：`task_result/smartIV/`
 
-5.docker 镜像安装：
+5.docker 镜像安装（可选）：
 
-​**5.1 镜像下载链接**：[task1_smartiv.tar](https://pan.baidu.com/s/1JhJivCzbmod1IY6yaoVisg?pwd=p9o1)
+**5.1 镜像下载链接**：[task1_smartiv.tar](https://pan.baidu.com/s/1JhJivCzbmod1IY6yaoVisg?pwd=p9o1)
 ​    
 
 **5.1 加载镜像：**(加载需要一会儿时间)
