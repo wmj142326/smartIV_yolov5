@@ -1,6 +1,4 @@
-# SmartIV-yolov5（参考链接：[YOLOV5](https://github.com/ultralytics/yolov5)）
-
-
+# <img src="README.assets/smartiv_yolov5-16684018159123.jpg" alt="smartiv_yolov5" style="zoom:20%;" />SmartIV-yolov5（参考链接：[YOLOV5](https://github.com/ultralytics/yolov5))
 
 0.[数据集下载]()
 
