@@ -1,6 +1,6 @@
 # <img src="README.assets/smartiv_yolov5-16684018159123.jpg" alt="smartiv_yolov5" style="zoom:20%;" />SmartIV-yolov5（参考链接：[YOLOV5](https://github.com/ultralytics/yolov5))
 
-0.[数据集下载]()
+0.[数据集下载](https://pan.baidu.com/s/1CI66KM_741wxmW2qS7DVwQ?pwd=zmeh)
 
 ```
 ├── smartIV_yolov5
@@ -11,7 +11,7 @@
     └── labels_json  # json_原始标签
 ```
 
-1.权重下载：[runs/best.pth]()
+1.权重下载：[runs/best.pth](https://pan.baidu.com/s/17lj4jlNjDn0IQDbWKWJTfg?pwd=j15h)
 
 ```
 └── smartIV_yolov5
